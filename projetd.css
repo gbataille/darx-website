@@ -94,14 +94,14 @@ color: 	#e13501;
 	margin: auto;
 	text-align: left;/* IE hack Part 2 */
 	background: #D2691E;
-	background: transparent url(images/darxo.jpg) repeat scroll center top;
+	/* background: transparent url(images/darxo.jpg) repeat scroll center top; */
 }	
 
 #entete 
 {
 	height:120px;
 	background: #AAA;
-	background: transparent url(images/darxo.jpg) no-repeat scroll center top;
+	/* background: transparent url(images/darxo.jpg) no-repeat scroll center top; */
 }
 
 #colonne_pleine 
