@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /phpmyadmin
+Request-rate: 1/30         # maximum rate is one page every 5 seconds
+Visit-time: 2000-0700     # only visit between 06:00 and 08:45 UTC (GMT)
+Crawl-delay: 120
+
