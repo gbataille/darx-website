@@ -19,6 +19,7 @@
 
     <!-- jquery -->
     <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://code.jquery.com/ui/1.11.2/jquery-ui.min.js"></script>
 
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet"
@@ -32,6 +33,31 @@
     <script
           src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 
+    <!-- Responsive calendar -->
+    <link rel="stylesheet" href="stylesheets/responsive-calendar.css"/>
+    <script src="js/responsive-calendar.min.js"></script>
+    <script>
+    $( document ).ready( function() {
+      $(".responsive-calendar").responsiveCalendar({
+        time: $.datepicker.formatDate('yy-mm', new Date()),
+        events: {
+          "2014-10-25": {},
+          "2014-11-08": {}, 
+          "2014-11-22": {}, 
+          "2014-12-13": {
+            "number" : 1,
+            "badgeClass":"badge-warning", 
+            "dayEvents": [
+            {"name":"journée continue",
+              "hour":"09:00"}
+            ]
+          }
+        }
+      });
+    });
+    </script>
+
+    <!-- Page templates -->
     <script>
 $(function(){
   $("#header").load("templates/header.html");
@@ -60,7 +86,7 @@ $(function(){
           </div>
           <div class="panel-body">
             <img src="images/logodarxp.jpg" class="img-rounded pull-right"
-                                            style="height:105px"/>
+                                            style="height:150px"/>
             <p>
             Cette association du pays de Gex a pour objet de réunir des jeunes afin de leur permettre de se rencontrer, de découvrir des jeux de société ou des Jeux de Cartes &agrave; Collectionner (JCC) et de participer &agrave; des événements ludiques (tournois, Polymanga, etc.) par les moyens suivants :
             </p>
@@ -100,21 +126,22 @@ $(function(){
             <div class="panel-body">
               <h6>Association Les DARX Fantastiques</h6>
 
-              <p><strong>Présidente :</strong> Nathalie Passe</p>
-              <p>
-              <strong>Adresse du siège social :</strong> 72, Chemin des Tattes du Moulin  <br/>01280 Prévessin-Moëns
-              </p>
-              <p>
-              <strong>@dresse :</strong>
-              <script type="text/javascript">
-  //<![CDATA[
-  var d="";for(var i=0;i<701;i++)d+=String.fromCharCode(("(r$1&N3 (dkWcf*\"jRsCF,Eg#H+^|I}V_;yUT{hY%~aiz!xZeX`G&\\rt>bD\'JBS][$Avu)w3=uN33=s=%N3_fuaTIJzyxg\\TSjeTf^ZjD>%\"f%b_IVu\"~\"YyB[&yS|D_IuB_}\"DEHj\';fzDs!%b_IVu}dUDyIceCB>\'yDZxsxjzUf>%VB^ZsDCr_bt~\"~i`jB#%Ux%!VI[\'^|c#^IcDTfz>TI|Djb[b_}(GVIFzRdu#sBUG\"~\"eRJF\'U!z\\_b[!U!u&gB%%UiFr_f^ZFageRbTZyS#jy^z%;ItxsxjzUf>%VB^Zs\'ir_bt~\"~i`^S#b;I[xs!_byBJk;fcbgBui_HY\'F~i`^S#b;I[xs!_byBJk;fcbgBui_HY[FbGJskgX,HGS,di`jJtx\"~(ry!JrT}FzH!uJTk\'~Tf%eUb[ZU!|!E|tx}dU~E!FRyB[\'V^eaTWZY#WcHIktrV+]xsxjzUf>%VB^Zs\'Zr_bt~\"~ie3Lw!$9(r$1zNALzMEAELz<NE:-sN9&?z uv*`w9%?tyr$R&9z::MMBI:.9&?z uv*`w9%?tyr$R&9z<B::MMBC:.9&?z uv*`w9%?tyr$R&9z<C::MMG:.&?z uv*`w9%?tyr$R&9z<D::Lu<Nd&$z x?w$!~Tyr$T!uv9sOOOBG=9sOOOI:7CFF=s7CFF:/Lv(r}9u?%\'s%&$9A=DAD::".charCodeAt(i)+46)%95+32);eval(d)
-  //]]>
-              </script>
-              </p>
-              <p>
-              <strong>Téléphone Pdte :</strong> 06 45 73 63 74
-              </p>
+              <ul class="list-unstyled">
+                <li>
+                  <strong>Présidente :</strong> Nathalie Passe
+                </li><li>
+                  <strong>Adresse du siège social :</strong> 72, Chemin des Tattes du Moulin  <br/>01280 Prévessin-Moëns
+                </li><li>
+                  <strong>@dresse :</strong>
+                  <script type="text/javascript">
+//<![CDATA[
+var d="";for(var i=0;i<701;i++)d+=String.fromCharCode(("(r$1&N3 (dkWcf*\"jRsCF,Eg#H+^|I}V_;yUT{hY%~aiz!xZeX`G&\\rt>bD\'JBS][$Avu)w3=uN33=s=%N3_fuaTIJzyxg\\TSjeTf^ZjD>%\"f%b_IVu\"~\"YyB[&yS|D_IuB_}\"DEHj\';fzDs!%b_IVu}dUDyIceCB>\'yDZxsxjzUf>%VB^ZsDCr_bt~\"~i`jB#%Ux%!VI[\'^|c#^IcDTfz>TI|Djb[b_}(GVIFzRdu#sBUG\"~\"eRJF\'U!z\\_b[!U!u&gB%%UiFr_f^ZFageRbTZyS#jy^z%;ItxsxjzUf>%VB^Zs\'ir_bt~\"~i`^S#b;I[xs!_byBJk;fcbgBui_HY\'F~i`^S#b;I[xs!_byBJk;fcbgBui_HY[FbGJskgX,HGS,di`jJtx\"~(ry!JrT}FzH!uJTk\'~Tf%eUb[ZU!|!E|tx}dU~E!FRyB[\'V^eaTWZY#WcHIktrV+]xsxjzUf>%VB^Zs\'Zr_bt~\"~ie3Lw!$9(r$1zNALzMEAELz<NE:-sN9&?z uv*`w9%?tyr$R&9z::MMBI:.9&?z uv*`w9%?tyr$R&9z<B::MMBC:.9&?z uv*`w9%?tyr$R&9z<C::MMG:.&?z uv*`w9%?tyr$R&9z<D::Lu<Nd&$z x?w$!~Tyr$T!uv9sOOOBG=9sOOOI:7CFF=s7CFF:/Lv(r}9u?%\'s%&$9A=DAD::".charCodeAt(i)+46)%95+32);eval(d)
+//]]>
+                  </script>
+                </li><li>
+                  <strong>Téléphone Pdte :</strong> 06 45 73 63 74
+                </li>
+              </ul>
             </div>
           </div>
 
@@ -131,17 +158,41 @@ $(function(){
             </div>
             <div class="panel-body">
               <img src="images/logosoare2.jpg" alt="petit logo soirée2" class="spip_logos" height="70" width="70"/>
-              <br /><p class="spip"><strong class="spip">Style</strong>&nbsp;: Tous types de jeux<br/><strong class="spip">Catégorie</strong>&nbsp;: Adulte et enfant &agrave; partir de 7 ans<br/><strong class="spip">Horaire</strong>&nbsp;: Les samedis... de 16h &agrave; 02h le dimanche !!!(20h-02h en septembre)<br/><strong class="spip">Lieu</strong>&nbsp;: MJC de Gex<br/></p>
-              <br />Dates &agrave; retenir...
-              <ul>
-
-                <li>Samedi 25 octobre</li>
-                <li>Samedi 08 novembre</li>
-                <li>Samedi 21 novembre</li>
-                <li>Samedi 13  décembre, journée continue 9h-2h du matin</li>
-
-              </ul>
+              <p>
+                <strong>Style</strong>&nbsp;: Tous types de jeux<br/><strong>Catégorie</strong>&nbsp;: Adulte et enfant &agrave; partir de 7 ans<br/><strong class="spip">Horaire</strong>&nbsp;: Les samedis... de 16h &agrave; 02h le dimanche !!!(20h-02h en septembre)<br/><strong class="spip">Lieu</strong>&nbsp;: MJC de Gex
+              </p>
               <p>Les enfants et ados devront &ecirc;tre obligatoirement accompagnés par un adulte.</p>
+              <h4>Dates à retenir...</h4>
+
+              <!-- Responsive calendar - START -->
+              <div class="responsive-calendar calendar-jeux">
+                <div class="controls">
+                  <a class="pull-left" data-go="prev">
+                    <div class="btn">
+                      <span class="glyphicon glyphicon-chevron-left"></span>
+                    </div>
+                  </a>
+                  <h4><span data-head-year></span> <span data-head-month></span></h4>
+                  <a class="pull-right" data-go="next">
+                    <div class="btn">
+                      <span class="glyphicon glyphicon-chevron-right"></span>
+                    </div>
+                  </a>
+                </div><hr/>
+                <div class="day-headers">
+                  <div class="day header">Mon</div>
+                  <div class="day header">Tue</div>
+                  <div class="day header">Wed</div>
+                  <div class="day header">Thu</div>
+                  <div class="day header">Fri</div>
+                  <div class="day header">Sat</div>
+                  <div class="day header">Sun</div>
+                </div>
+                <div class="days" data-group="days">
+                  <!-- the place where days will be generated -->
+                </div>
+              </div>
+              <!-- Responsive calendar - END -->
             </div>
           </div>
         </div>
