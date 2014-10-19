@@ -1,4 +1,16 @@
 /****** Général *********/
+table.ri {
+	border: 2px solid white;
+	border-collapse: collapse;
+	margin: auto;
+}
+table.ri th, td {
+	border: 1px solid white;
+	border-collapse: collapse;
+}
+table.ri th, td {
+	padding: 5px;
+}
 
 *{ margin:0; padding:0; }
 
