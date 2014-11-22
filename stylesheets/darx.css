@@ -1,11 +1,11 @@
 body {
-  background: -moz-linear-gradient(top, rgba(0,0,0,0.65) 0%, rgba(0,0,0,0) 100%); /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.65)), color-stop(100%,rgba(0,0,0,0))); /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(top, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(top, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* Opera 11.10+ */
-  background: -ms-linear-gradient(top, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* IE10+ */
-  background: linear-gradient(to bottom, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+   background: -moz-linear-gradient(top, rgba(0,0,0,0.65) 0%, rgba(0,0,0,0.32) 36%, rgba(0,0,0,0) 100%); /* FF3.6+ */
+   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.65)), color-stop(36%,rgba(0,0,0,0.32)), color-stop(100%,rgba(0,0,0,0))); /* Chrome,Safari4+ */
+   background: -webkit-linear-gradient(top, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0.32) 36%,rgba(0,0,0,0) 100%); /* Chrome10+,Safari5.1+ */
+   background: -o-linear-gradient(top, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0.32) 36%,rgba(0,0,0,0) 100%); /* Opera 11.10+ */
+   background: -ms-linear-gradient(top, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0.32) 36%,rgba(0,0,0,0) 100%); /* IE10+ */
+   background: linear-gradient(to bottom, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0.32) 36%,rgba(0,0,0,0) 100%); /* W3C */
+   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
 }
 
 .bg {
@@ -34,7 +34,7 @@ body {
 }
 
 .panel-default>.panel-body {
-  background-color: rgba(4,4,4,0.1);
+  background-color: rgba(255,255,255,.3);
 }
 
 .navbar-default .navbar-nav>.active>a {
@@ -53,7 +53,13 @@ a,
 .navbar-default .navbar-nav>.active>a,
 .navbar-default .navbar-nav>li>a,
 h1 {
-  /* color: #678621; */
+  color: #333;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: 900;
+  font-variant: small-caps;
 }
 
 .page-header {
