@@ -12,6 +12,7 @@ body {
 
 .bg {
   background-image: url("../images/bg/redDiceLight.png");
+  background-repeat: repeat-x;
 }
 
 .panel-default>.panel-heading,
