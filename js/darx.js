@@ -1,5 +1,13 @@
-function showPage(page) {
-  console.log("load");
+function showPage(page, elt) {
+  lis = $("ul.nav-darx").children();
+  lis.each( function(index) {
+    var title = $(this).children().text();
+    if (title === page) {
+      $(lis[index]).attr("class", "active");
+    } else {
+      $(lis[index]).removeClass();
+    }
+  });
   $("#content").load("pages/home.html", loadCallback(page));
 }
 
@@ -10,13 +18,12 @@ function loadCallback(page) {
 }
 
 function postLoad(page) {
-  if (page === "home") {
+  if (page === "Home") {
     postLoadHome();
   }
 }
 
 function postLoadHome() {
-  console.log("postLoadHome");
   // Email
   mailEl = mailTo("darxfantastiques", "hotmail", "com", "contact DARX");
   console.log(mailEl);
