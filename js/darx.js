@@ -31,7 +31,7 @@ function postLoad(page) {
 
 function postLoadContacts() {
   // Email
-  mailEl = mailTo("darxfantastiques", "hotmail", "com", "contact DARX");
+  mailEl = mailTo("darxfantastiques", "hotmail", "com", "notre email");
   $("#email_address").append(mailEl);
 }
 
