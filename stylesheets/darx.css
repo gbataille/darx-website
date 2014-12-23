@@ -26,6 +26,10 @@ body {
   background-repeat: repeat-x;
 }
 
+.justified {
+  text-align: justify;
+}
+
 .panel-default>.panel-heading,
 .navbar-default {
   background-image: none;

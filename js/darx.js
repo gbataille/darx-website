@@ -26,7 +26,28 @@ function postLoad(page) {
     postLoadHome();
   } else if (page === "Contacts") {
     postLoadContacts();
+  } else if (page === "Magic") {
+    postLoadMagic();
   }
+}
+
+function postLoadMagic() {
+  $(".magic-calendar").responsiveCalendar({
+    time: $.datepicker.formatDate('yy-mm', new Date()),
+    events: {
+      "2014-10-25": {},
+      "2014-11-08": {}, 
+      "2014-11-22": {}, 
+        "2014-12-13": {
+          "number" : 1,
+          "badgeClass":"badge-warning", 
+          "dayEvents": [
+          {"name":"journée continue",
+            "hour":"09:00"}
+          ]
+        }
+    }
+  });
 }
 
 function postLoadContacts() {
