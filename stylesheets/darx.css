@@ -122,7 +122,13 @@ a {
 }
 
 .footer {
+  padding-top: 15px;
+  padding-bottom: 10px;
   background-color: rgba(255,255,255,.3);
+}
+
+.pad-right {
+  padding-right: 30px;
 }
 
 p.size16 {
