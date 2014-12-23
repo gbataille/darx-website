@@ -1,3 +1,7 @@
+$( function () {
+  showPage("Home", null);
+});
+
 function showPage(page, elt) {
   lis = $("ul.nav-darx").children();
   lis.each( function(index) {
@@ -8,7 +12,7 @@ function showPage(page, elt) {
       $(lis[index]).removeClass();
     }
   });
-  $("#content").load("pages/home.html", loadCallback(page));
+  $("#content").load("pages/" + page.toLowerCase() + ".html", loadCallback(page));
 }
 
 function loadCallback(page) {
@@ -20,13 +24,20 @@ function loadCallback(page) {
 function postLoad(page) {
   if (page === "Home") {
     postLoadHome();
+  } else if (page === "Contacts") {
+    postLoadContacts();
   }
+}
+
+function postLoadContacts() {
+  // Email
+  mailEl = mailTo("darxfantastiques", "hotmail", "com", "contact DARX");
+  $("#email_address").append(mailEl);
 }
 
 function postLoadHome() {
   // Email
   mailEl = mailTo("darxfantastiques", "hotmail", "com", "contact DARX");
-  console.log(mailEl);
   $("#email_address").append(mailEl);
 
   // Telephone
