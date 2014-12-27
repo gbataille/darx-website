@@ -26,7 +26,8 @@ body {
   background-repeat: repeat-x;
 }
 
-.justified {
+.justified,
+p.justified {
   text-align: justify;
 }
 
