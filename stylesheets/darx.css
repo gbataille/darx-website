@@ -140,3 +140,15 @@ p.size16 {
   width:50%;
   margin-left: 200px;
 }
+
+li.rgt-li {
+  padding-top: 15px;
+}
+
+table.tarif {
+  margin-left:auto;
+  margin-right:auto;
+}
+table.tarif td,th {
+  padding: 5px;
+}
