@@ -28,7 +28,18 @@ function postLoad(page) {
     postLoadContacts();
   } else if (page === "Magic") {
     postLoadMagic();
+  } else if (page === "LudiDARX") {
+    postLoadLudidarx();
   }
+}
+
+function postLoadLudidarx() {
+  // Email
+  mailEl = mailTo("darxfantastiques", "hotmail", "com", "contact DARX");
+  $("#email_address").append(mailEl);
+
+  // Telephone
+  $("#tel_number").append(telNum("06","45","73","63","74"));
 }
 
 function postLoadMagic() {
