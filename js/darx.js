@@ -98,14 +98,6 @@ function postLoadHome() {
     translateMonths: ["Janvier", "Février", "Mars", "Avril", "Mai", "Juin", "Juillet", "Août", "Septembre", "Octobre", "Novembre", "Décembre"],
     activateNonCurrentMonths: true,
     events: {
-      "2014-12-13": {
-        "number" : 1,
-        "badgeClass":"badge-warning", 
-        "dayEvents": [
-        {"name":"journée continue",
-          "hour":"09:00"}
-        ]
-      },
       "2015-01-10": {},
       "2015-01-24": {
         "number" : 1,
@@ -131,7 +123,7 @@ function postLoadHome() {
       "2015-04-25": {},
       "2015-05-09": {},
       "2015-05-20": {
-        "number" : 1,
+        "number" : 2,
         "badgeClass":"badge-warning", 
         "dayEvents": [
         {"name":"Assemblée générale",
@@ -141,7 +133,7 @@ function postLoadHome() {
       "2015-05-30": {},
       "2015-06-13": {},
       "2015-06-27": {
-        "number" : 1,
+        "number" : 3,
         "badgeClass":"badge-warning", 
         "dayEvents": [
         {"name":"journée continue",
@@ -149,7 +141,7 @@ function postLoadHome() {
         ]
       },
       "2015-07-04": {
-        "number" : 1,
+        "number" : 4,
         "badgeClass":"badge-warning", 
         "dayEvents": [
         {"name":"journée inventaire",
