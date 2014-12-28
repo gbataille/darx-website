@@ -45,6 +45,8 @@ function postLoadLudidarx() {
 function postLoadMagic() {
   $(".magic-calendar").responsiveCalendar({
     time: $.datepicker.formatDate('yy-mm', new Date()),
+    translateMonths: ["Janvier", "Février", "Mars", "Avril", "Mai", "Juin", "Juillet", "Août", "Septembre", "Octobre", "Novembre", "Décembre"],
+    activateNonCurrentMonths: true,
     events: {
       "2015-01-02": {},
       "2015-01-09": {},
@@ -93,6 +95,8 @@ function postLoadHome() {
   // Journee Jeux
   $(".responsive-calendar").responsiveCalendar({
     time: $.datepicker.formatDate('yy-mm', new Date()),
+    translateMonths: ["Janvier", "Février", "Mars", "Avril", "Mai", "Juin", "Juillet", "Août", "Septembre", "Octobre", "Novembre", "Décembre"],
+    activateNonCurrentMonths: true,
     events: {
       "2014-12-13": {
         "number" : 1,
