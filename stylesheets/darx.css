@@ -123,6 +123,11 @@ a {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4055a0', endColorstr='#5d7eea',GradientType=0 ); /* IE6-9 */
 }
 
+.alert-info a {
+  color: rgb(230, 230, 230);
+  text-decoration: underline;
+}
+
 .footer {
   padding-top: 15px;
   padding-bottom: 10px;
