@@ -107,6 +107,7 @@ a {
 }
 
 .alert-info {
+  overflow: auto;
   font-size: 18px;
   font-weight: 900;
   padding-left: 45px;
@@ -165,4 +166,9 @@ p.darx-img {
 
 img.affiche-ludidarx {
   padding: 5px;
+}
+
+img.logo-banner {
+  padding: 5px;
+  height: 170px;
 }
