@@ -35,7 +35,7 @@ function postLoad(page) {
 
 function postLoadLudidarx() {
   // Email
-  mailEl = mailTo("darxfantastiques", "hotmail", "com", "contact DARX");
+  mailEl = mailTo("darxfantastiques", "hotmail", "fr", "contact DARX");
   $("#email_address").append(mailEl);
 
   // Telephone
@@ -80,13 +80,13 @@ function postLoadMagic() {
 
 function postLoadContacts() {
   // Email
-  mailEl = mailTo("darxfantastiques", "hotmail", "com", "notre email");
+  mailEl = mailTo("darxfantastiques", "hotmail", "fr", "notre email");
   $("#email_address").append(mailEl);
 }
 
 function postLoadHome() {
   // Email
-  mailEl = mailTo("darxfantastiques", "hotmail", "com", "contact DARX");
+  mailEl = mailTo("darxfantastiques", "hotmail", "fr", "contact DARX");
   $("#email_address").append(mailEl);
 
   // Telephone
