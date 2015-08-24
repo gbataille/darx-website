@@ -48,32 +48,21 @@ function postLoadMagic() {
     translateMonths: ["Janvier", "Février", "Mars", "Avril", "Mai", "Juin", "Juillet", "Août", "Septembre", "Octobre", "Novembre", "Décembre"],
     activateNonCurrentMonths: true,
     events: {
-      "2015-01-02": {},
-      "2015-01-09": {},
-      "2015-01-16": {},
-      "2015-01-23": {},
-      "2015-01-30": {},
-      "2015-02-06": {},
-      "2015-02-13": {},
-      "2015-02-20": {},
-      "2015-02-27": {},
-      "2015-03-06": {},
-      "2015-03-13": {},
-      "2015-03-20": {},
-      "2015-03-27": {},
-      "2015-04-03": {},
-      "2015-04-10": {},
-      "2015-04-17": {},
-      "2015-04-24": {},
-      "2015-05-01": {},
-      "2015-05-08": {},
-      "2015-05-15": {},
-      "2015-05-22": {},
-      "2015-05-29": {},
-      "2015-06-05": {},
-      "2015-06-12": {},
-      "2015-06-19": {},
-      "2015-06-26": {}
+      "2015-09-11": {},
+      "2015-09-18": {},
+      "2015-09-25": {},
+      "2015-10-02": {},
+      "2015-10-09": {},
+      "2015-10-16": {},
+      "2015-10-23": {},
+      "2015-10-30": {},
+      "2015-11-06": {},
+      "2015-11-13": {},
+      "2015-11-20": {},
+      "2015-11-27": {},
+      "2015-12-04": {},
+      "2015-12-11": {},
+      "2015-12-18": {}
     }
   });
 }
@@ -98,53 +87,39 @@ function postLoadHome() {
     translateMonths: ["Janvier", "Février", "Mars", "Avril", "Mai", "Juin", "Juillet", "Août", "Septembre", "Octobre", "Novembre", "Décembre"],
     activateNonCurrentMonths: true,
     events: {
-      "2015-01-10": {},
-      "2015-01-24": {
+      "2015-09-12": {},
+      "2015-09-26": {},
+      "2015-10-10": {
         "number" : 1,
         "badgeClass":"badge-warning", 
         "dayEvents": [
-        {"name":"Journée et soirée jeux à Saint Genis Pouilly, salle Jean Monnet",
+        {"name":"Ludidarx",
           "hour":"09:00"}
         ]
       },
-      "2015-01-25": {
+      "2015-10-11": {
         "number" : 1,
         "badgeClass":"badge-warning", 
         "dayEvents": [
-        {"name":"Journée et soirée jeux à Saint Genis Pouilly, salle Jean Monnet",
+        {"name":"Ludidarx",
           "hour":"09:00"}
         ]
       },
-      "2015-02-07": {},
-      "2015-02-21": {},
-      "2015-03-07": {},
-      "2015-03-21": {},
-      "2015-04-11": {},
-      "2015-04-25": {},
-      "2015-05-09": {},
-      "2015-05-20": {
+      "2015-10-24": {},
+      "2015-11-07": {
         "number" : 2,
         "badgeClass":"badge-warning", 
         "dayEvents": [
-        {"name":"Assemblée générale",
-          "hour":"09:00"}
+        {"name":"soirée vide-jeux",
+          "hour":"16:00"}
         ]
       },
-      "2015-05-30": {},
-      "2015-06-13": {},
-      "2015-06-27": {
+      "2015-11-21": {},
+      "2015-12-12": {
         "number" : 3,
         "badgeClass":"badge-warning", 
         "dayEvents": [
         {"name":"journée continue",
-          "hour":"09:00"}
-        ]
-      },
-      "2015-07-04": {
-        "number" : 4,
-        "badgeClass":"badge-warning", 
-        "dayEvents": [
-        {"name":"journée inventaire",
           "hour":"09:00"}
         ]
       }
