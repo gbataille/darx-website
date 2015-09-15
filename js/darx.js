@@ -87,8 +87,14 @@ function postLoadHome() {
     translateMonths: ["Janvier", "Février", "Mars", "Avril", "Mai", "Juin", "Juillet", "Août", "Septembre", "Octobre", "Novembre", "Décembre"],
     activateNonCurrentMonths: true,
     events: {
-      "2015-09-12": {},
-      "2015-09-26": {},
+      "2015-09-12": {
+        "number" : 0,
+        "badgeClass":"badge-warning"
+      },
+      "2015-09-26": {
+        "number" : 0,
+        "badgeClass":"badge-warning"
+      },
       "2015-10-10": {
         "number" : 1,
         "badgeClass":"badge-warning", 
