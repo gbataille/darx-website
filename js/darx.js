@@ -121,14 +121,14 @@ function postLoadHome() {
         ]
       },
       "2015-11-21": {},
-      // "2015-12-12": {
-      //   "number" : 3,
-      //   "badgeClass":"badge-warning", 
-      //   "dayEvents": [
-      //   {"name":"journée continue",
-      //     "hour":"09:00"}
-      //   ]
-      // }
+      "2015-12-12": {
+        "number" : 3,
+        "badgeClass":"badge-warning", 
+        "dayEvents": [
+        {"name":"journée continue",
+          "hour":"09:00"}
+        ]
+      }
     }
   });
 };
