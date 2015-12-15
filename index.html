@@ -40,26 +40,6 @@
     <!-- Responsive calendar -->
     <link rel="stylesheet" href="stylesheets/responsive-calendar.css"/>
     <script src="js/responsive-calendar.min.js"></script>
-    <script>
-    $( document ).ready( function() {
-      $(".responsive-calendar").responsiveCalendar({
-        time: $.datepicker.formatDate('yy-mm', new Date()),
-        events: {
-          "2014-10-25": {},
-          "2014-11-08": {}, 
-          "2014-11-22": {}, 
-          "2014-12-13": {
-            "number" : 1,
-            "badgeClass":"badge-warning", 
-            "dayEvents": [
-            {"name":"journée continue",
-              "hour":"09:00"}
-            ]
-          }
-        }
-      });
-    });
-    </script>
 
     <!-- Page templates -->
     <script>

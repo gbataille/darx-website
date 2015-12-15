@@ -48,21 +48,33 @@ function postLoadMagic() {
     translateMonths: ["Janvier", "Février", "Mars", "Avril", "Mai", "Juin", "Juillet", "Août", "Septembre", "Octobre", "Novembre", "Décembre"],
     activateNonCurrentMonths: true,
     events: {
-      "2015-09-11": {},
-      "2015-09-18": {},
-      "2015-09-25": {},
-      "2015-10-02": {},
-      "2015-10-09": {},
-      "2015-10-16": {},
-      "2015-10-23": {},
-      "2015-10-30": {},
-      "2015-11-06": {},
-      "2015-11-13": {},
-      "2015-11-20": {},
-      "2015-11-27": {},
-      "2015-12-04": {},
       "2015-12-11": {},
-      "2015-12-18": {}
+      "2015-12-18": {},
+      "2016-01-08": {},
+      "2016-01-15": {},
+      "2016-01-22": {},
+      "2016-01-29": {},
+      "2016-02-05": {},
+      "2016-02-12": {},
+      "2016-02-19": {},
+      "2016-02-26": {},
+      "2016-03-04": {},
+      "2016-03-11": {},
+      "2016-03-18": {},
+      "2016-03-25": {},
+      "2016-04-01": {},
+      "2016-04-08": {},
+      "2016-04-15": {},
+      "2016-04-22": {},
+      "2016-04-29": {},
+      "2016-05-06": {},
+      "2016-05-13": {},
+      "2016-05-20": {},
+      "2016-05-27": {},
+      "2016-06-03": {},
+      "2016-06-10": {},
+      "2016-06-17": {},
+      "2016-06-24": {}
     }
   });
 }
@@ -87,47 +99,36 @@ function postLoadHome() {
     translateMonths: ["Janvier", "Février", "Mars", "Avril", "Mai", "Juin", "Juillet", "Août", "Septembre", "Octobre", "Novembre", "Décembre"],
     activateNonCurrentMonths: true,
     events: {
-      "2015-09-12": {
+      "2016-01-16": {},
+      "2016-01-30": {},
+      "2016-02-13": {},
+      "2016-02-27": {},
+      "2016-03-12": {},
+      "2016-03-26": {},
+      "2016-04-09": {},
+      "2016-04-23": {},
+      "2016-05-14": {},
+      "2016-05-18": {
         "number" : 0,
         "badgeClass":"badge-warning"
       },
-      "2015-09-26": {
-        "number" : 0,
+      "2016-05-21": {
+        "number" : 1,
         "badgeClass":"badge-warning"
       },
-      "2015-10-10": {
+      "2016-05-22": {
         "number" : 1,
-        "badgeClass":"badge-warning", 
-        "dayEvents": [
-        {"name":"Ludidarx",
-          "hour":"09:00"}
-        ]
+        "badgeClass":"badge-warning"
       },
-      "2015-10-11": {
-        "number" : 1,
-        "badgeClass":"badge-warning", 
-        "dayEvents": [
-        {"name":"Ludidarx",
-          "hour":"09:00"}
-        ]
-      },
-      "2015-10-24": {},
-      "2015-11-07": {
+      "2016-05-28": {},
+      "2016-06-11": {},
+      "2016-06-25": {
         "number" : 2,
-        "badgeClass":"badge-warning", 
-        "dayEvents": [
-        {"name":"soirée vide-jeux",
-          "hour":"16:00"}
-        ]
+        "badgeClass":"badge-warning"
       },
-      "2015-11-21": {},
-      "2015-12-12": {
+      "2016-07-02": {
         "number" : 3,
-        "badgeClass":"badge-warning", 
-        "dayEvents": [
-        {"name":"journée continue",
-          "hour":"09:00"}
-        ]
+        "badgeClass":"badge-warning"
       }
     }
   });
