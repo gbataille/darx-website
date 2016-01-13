@@ -87,7 +87,7 @@ function postLoadContacts() {
 
 function postLoadHome() {
   // Email
-  mailEl = mailTo("darxfantastiques", "hotmail", "fr", "contact DARX");
+  mailEl = mailTo("darxfantastiques", "hotmail", "fr", "darxfantastiques@hotmail.fr");
   $("#email_address").append(mailEl);
 
   // Telephone
@@ -100,6 +100,10 @@ function postLoadHome() {
     activateNonCurrentMonths: true,
     events: {
       "2016-01-16": {},
+      "2016-01-24": {
+        "number" : 0,
+        "badgeClass":"badge-warning"
+      },
       "2016-01-30": {},
       "2016-02-13": {},
       "2016-02-27": {},
@@ -109,25 +113,25 @@ function postLoadHome() {
       "2016-04-23": {},
       "2016-05-14": {},
       "2016-05-18": {
-        "number" : 0,
+        "number" : 1,
         "badgeClass":"badge-warning"
       },
       "2016-05-21": {
-        "number" : 1,
+        "number" : 2,
         "badgeClass":"badge-warning"
       },
       "2016-05-22": {
-        "number" : 1,
+        "number" : 2,
         "badgeClass":"badge-warning"
       },
       "2016-05-28": {},
       "2016-06-11": {},
       "2016-06-25": {
-        "number" : 2,
+        "number" : 3,
         "badgeClass":"badge-warning"
       },
       "2016-07-02": {
-        "number" : 3,
+        "number" : 4,
         "badgeClass":"badge-warning"
       }
     }
