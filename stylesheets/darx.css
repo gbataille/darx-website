@@ -178,6 +178,14 @@ img.logo-banner {
   height: 170px;
 }
 
+img.thumb {
+  height: 200px;
+}
+
 .center {
   text-align: center;
+}
+
+.right {
+  float: right;
 }
