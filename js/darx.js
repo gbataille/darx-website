@@ -37,9 +37,6 @@ function postLoadLudidarx() {
   // Email
   mailEl = mailTo("darxfantastiques", "hotmail", "fr", "contact DARX");
   $("#email_address").append(mailEl);
-
-  // Telephone
-  $("#tel_number").append(telNum("06","45","73","63","74"));
 }
 
 function postLoadMagic() {
@@ -89,9 +86,6 @@ function postLoadHome() {
   // Email
   mailEl = mailTo("darxfantastiques", "hotmail", "fr", "darxfantastiques@hotmail.fr");
   $("#email_address").append(mailEl);
-
-  // Telephone
-  $("#tel_number").append(telNum("06","45","73","63","74"));
 
   // Journee Jeux
   $(".responsive-calendar").responsiveCalendar({
