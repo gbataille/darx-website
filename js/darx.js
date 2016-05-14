@@ -119,7 +119,6 @@ function postLoadHome() {
         "badgeClass":"badge-warning"
       },
       "2016-05-28": {},
-      "2016-06-11": {},
       "2016-06-25": {
         "number" : 3,
         "badgeClass":"badge-warning"
