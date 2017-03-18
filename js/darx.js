@@ -75,34 +75,23 @@ function postLoadHome() {
     translateMonths: ["Janvier", "Février", "Mars", "Avril", "Mai", "Juin", "Juillet", "Août", "Septembre", "Octobre", "Novembre", "Décembre"],
     activateNonCurrentMonths: true,
     events: {
-      "2016-09-10": {
+      "2017-01-07": {},
+      "2017-01-21": {},
+      "2017-02-04": {},
+      "2017-02-25": {},
+      "2017-03-04": {},
+      "2017-03-18": {},
+      "2017-04-08": {},
+      "2017-04-29": {},
+      "2017-05-13": {},
+      "2017-05-10": {
         "number" : 0,
         "badgeClass":"badge-warning"
       },
-      "2016-09-24": {
-        "number" : 0,
-        "badgeClass":"badge-warning"
-      },
-      "2016-10-08": {
+      "2017-05-27": {},
+      "2017-06-03": {},
+      "2017-06-24": {
         "number" : 1,
-        "badgeClass":"badge-warning"
-      },
-      "2016-10-09": {
-        "number" : 1,
-        "badgeClass":"badge-warning"
-      },
-      "2016-10-22": {},
-      "2016-11-05": {},
-      "2016-11-19": {
-        "number" : 2,
-        "badgeClass":"badge-warning"
-      },
-      "2016-11-26": {
-        "number" : 3,
-        "badgeClass":"badge-warning"
-      },
-      "2016-12-10": {
-        "number" : 4,
         "badgeClass":"badge-warning"
       }
     }

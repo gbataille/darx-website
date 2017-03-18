@@ -170,6 +170,7 @@ p.darx-img {
 }
 
 img.affiche-ludidarx {
+  height: 200px;
   padding: 5px;
 }
 
@@ -188,4 +189,10 @@ img.thumb {
 
 .right {
   float: right;
+}
+
+.centered-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
