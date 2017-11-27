@@ -45,13 +45,6 @@ function postLoadMagic() {
     translateMonths: ["Janvier", "Février", "Mars", "Avril", "Mai", "Juin", "Juillet", "Août", "Septembre", "Octobre", "Novembre", "Décembre"],
     activateNonCurrentMonths: true,
     events: {
-      "2016-09-10": {},
-      "2016-09-24": {},
-      "2016-10-08": {},
-      "2016-10-09": {},
-      "2016-10-22": {},
-      "2016-11-05": {},
-      "2016-11-19": {},
       "2016-11-26": {},
       "2016-12-10": {},
     }
@@ -75,29 +68,27 @@ function postLoadHome() {
     translateMonths: ["Janvier", "Février", "Mars", "Avril", "Mai", "Juin", "Juillet", "Août", "Septembre", "Octobre", "Novembre", "Décembre"],
     activateNonCurrentMonths: true,
     events: {
-      "2017-09-09": {},
-      "2017-09-23": {},
-      "2017-10-07": {
+      "2017-12-02": {},
+      "2017-12-16": {
         "number" : 0,
         "badgeClass":"badge-warning"
       },
-      "2017-10-08": {
-        "number" : 0,
-        "badgeClass":"badge-warning"
-      },
-      "2017-10-21": {},
-      "2017-10-28": {
+      "2018-01-13": {},
+      "2018-01-20": {},
+      "2018-02-10": {},
+      "2018-03-03": {},
+      "2018-03-17": {},
+      "2018-04-07": {},
+      "2018-04-21": {},
+      "2018-05-05": {},
+      "2018-05-16": {
         "number" : 1,
         "badgeClass":"badge-warning"
       },
-      "2017-11-04": {},
-      "2017-11-18": {
+      "2018-05-26": {},
+      "2018-06-09": {},
+      "2018-06-30": {
         "number" : 2,
-        "badgeClass":"badge-warning"
-      },
-      "2017-12-02": {},
-      "2017-12-16": {
-        "number" : 3,
         "badgeClass":"badge-warning"
       },
     }
