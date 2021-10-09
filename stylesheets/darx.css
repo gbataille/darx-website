@@ -162,6 +162,11 @@ table.tarif td,th {
   border: 1px solid gray;
 }
 
+img.social {
+  height: 40px;
+  width: auto;
+}
+
 img.darx-img {
   padding-left: 5px;
   padding-right: 5px;
