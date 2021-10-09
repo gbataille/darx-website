@@ -155,9 +155,11 @@ li.rgt-li {
 table.tarif {
   margin-left:auto;
   margin-right:auto;
+  border: 2px solid black;
 }
 table.tarif td,th {
   padding: 5px;
+  border: 1px solid gray;
 }
 
 img.darx-img {
