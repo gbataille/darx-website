@@ -41,8 +41,11 @@
     <!-- Page templates -->
     <script>
 $(function(){
-  $("#header").load("templates/header.html");
-  $("#footer").load("templates/footer.html");
+  $("#header").load("templates/header.html", function () { 
+    $("#footer").load("templates/footer.html", function () { 
+      init();
+    });
+  });
 });
     </script> 
   </head>
