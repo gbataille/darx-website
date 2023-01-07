@@ -176,6 +176,11 @@ p.darx-img {
   text-align: center;
 }
 
+img.photo-soiree {
+  height: 400px;
+  padding: 5px;
+}
+
 img.affiche-ludidarx {
   height: 200px;
   padding: 5px;
