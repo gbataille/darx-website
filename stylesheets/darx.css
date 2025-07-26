@@ -175,6 +175,15 @@ img.darx-img {
 p.darx-img {
   text-align: center;
 }
+p.darx-flyers {
+  text-align: center;
+}
+
+img.flyer-ludidarx {
+  height: auto;
+  width: 48%;
+  padding: 5px;
+}
 
 img.photo-soiree {
   height: 400px;
